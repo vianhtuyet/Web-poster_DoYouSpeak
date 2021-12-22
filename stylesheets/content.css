@@ -1,0 +1,27 @@
+body {
+  width: 100%;
+  margin: 0;
+  background: white;
+  height: 100%;
+  display: block;
+  position: relative;
+}
+html{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.container {
+  /* margin-top: 35px;
+  margin-left: 35px; */
+  top: 35px;
+  left: 35px;
+  position: relative;
+}
+.e-1.1, .e-1.2 {
+  width: 200px;
+  height: 115px;
+  margin-top: 35px;
+  margin-left: 35px;
+  position: relative;
+}
