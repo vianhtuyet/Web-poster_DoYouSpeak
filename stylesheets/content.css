@@ -1,27 +1,107 @@
-body {
-  width: 100%;
-  margin: 0;
-  background: white;
-  height: 100%;
-  display: block;
-  position: relative;
-}
-html{
-  position: relative;
-  height: 100%;
-  width: 100%;
-}
-.container {
-  /* margin-top: 35px;
-  margin-left: 35px; */
-  top: 35px;
-  left: 35px;
-  position: relative;
-}
-.e-1.1, .e-1.2 {
-  width: 200px;
-  height: 115px;
-  margin-top: 35px;
-  margin-left: 35px;
-  position: relative;
-}
+  body {
+    width: 100%;
+    margin: auto 0;
+    background: white;
+    height: 100%;
+    display: block;
+    position: relative;
+  }
+  html{
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  .container {
+    width: 1024px;
+    height: 115px;
+    top: 35px;
+    left: 35px;
+    position: relative;
+    margin-bottom: 35px;
+    /* padding-bottom: 35px 0; */
+    overflow: hidden;
+  }
+  .container-row {
+    width: 1024px;
+    height: 115px;
+    top: 35px;
+    position: relative;
+    margin-bottom: 35px;
+    /* padding-bottom: 35px 0; */
+    overflow: hidden;
+  }
+  .row1 {
+    width: 2148px;
+    /* background: black; */
+    position: relative;
+    animation: row-move1 6s linear infinite;
+  }
+  @keyframes row-move1 {
+    0% {right: 0;}
+    /* 100% {right: calc(100% - 1024px);} */
+    100% {right: 100%;}
+  }
+  /* .text-1 {
+    width: 200px;
+    height: 48px;
+    background: white;
+    font-family: Manrope;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    position: relative;
+    animation: text 10s steps(3) infinite;
+  }
+  @keyframes text {
+    0% {top: 0;}
+    100% {top: -100%;}
+  } */
+  .e-1, .e-2, .e-3, .e-4, .e-5, .e-6, .e-7, .e-8, .e-9, .e-10, .e-11, .e-12 {
+    margin-bottom: 35px;
+    margin-right: 35px;
+    position: relative;
+    display: inline-block;
+  }
+  .name {
+    margin-left: 50px;
+    position: absolute;
+    font-family: Manrope;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: white;
+  }
+  .year {
+    margin-left: 900px;
+    position: absolute;
+    font-family: Manrope;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: white;
+  }
+  .footer {
+    margin-top: 35px;
+    position: absolute;
+  }
+  .text-1 {
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 30px;
+    position: absolute;
+    font-family: Manrope;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: black;
+    text-align: center;
+  }
