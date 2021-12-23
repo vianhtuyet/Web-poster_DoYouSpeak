@@ -28,29 +28,92 @@
       position: relative;
       margin-bottom: 35px;
       /* padding-bottom: 35px 0; */
-      /* overflow: hidden; */
+      overflow: hidden;
     }
-    .row {
-      width: 2024px;
+    .container-row {
+      width: 1024px;
+      height: 115px;
+      top: 35px;
+      position: relative;
+      margin-bottom: 35px;
+      /* padding-bottom: 35px 0; */
+      overflow: hidden;
+    }
+    .row1 {
+      width: 2148px;
       /* background: black; */
       position: relative;
-      animation: row-move 6s linear infinite;
+      animation: row-move1 6s linear infinite;
     }
-    @keyframes row-move {
+    @keyframes row-move1 {
       0% {right: 0;}
       /* 100% {right: calc(100% - 1024px);} */
       100% {right: 100%;}
     }
+    /* .text-1 {
+      width: 200px;
+      height: 48px;
+      background: white;
+      font-family: Manrope;
+      font-style: medium;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 48px;
+      color: black;
+      text-align: center;
+      display: inline-block;
+      vertical-align: top;
+      overflow: hidden;
+      position: relative;
+      animation: text 10s steps(3) infinite;
+    }
+    @keyframes text {
+      0% {top: 0;}
+      100% {top: -100%;}
+    } */
     .e-1, .e-2, .e-3, .e-4, .e-5, .e-6, .e-7, .e-8, .e-9, .e-10, .e-11, .e-12 {
       margin-bottom: 35px;
       margin-right: 35px;
       position: relative;
       display: inline-block;
     }
-  .footer {
-    margin-top: 35px;
-    position: relative;
-  }
+    .name {
+      margin-left: 50px;
+      position: absolute;
+      font-family: Manrope;
+      font-style: medium;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 48px;
+      color: white;
+    }
+    .year {
+      margin-left: 900px;
+      position: absolute;
+      font-family: Manrope;
+      font-style: medium;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 48px;
+      color: white;
+    }
+    .footer {
+      margin-top: 35px;
+      position: absolute;
+    }
+    .text-1 {
+      width: 200px;
+      margin-left: 100px;
+      margin-top: 30px;
+      position: absolute;
+      font-family: Manrope;
+      font-style: medium;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 48px;
+      color: black;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
@@ -62,6 +125,9 @@
       <img src="images/e-1.2.svg" alt="">
     </div>
     <div class="e-1">
+      <div class="text-1">
+        こんにちは hello привет
+      </div>
       <img src="images/e-1.3.svg" alt="">
     </div>
     <div class="e-1">
@@ -90,8 +156,8 @@
       <img src="images/e-3.3.svg" alt="">
     </div>
   </div>
-  <div class="container">
-    <div class="row">
+  <div class="container-row">
+    <div class="row1">
       <div class="e-4">
         <img src="images/e-4.1.svg" alt="">
       </div>
@@ -115,6 +181,9 @@
       </div>
       <div class="e-4">
         <img src="images/e-4.3.svg" alt="">
+      </div>
+      <div class="e-4">
+        <img src="images/e-4.4.svg" alt="">
       </div>
     </div>
   </div>
@@ -188,15 +257,24 @@
     </div>
   </div>
   <div class="container">
-    <div class="e-11">
-      <img src="images/e-11.1.svg" alt="">
-    </div>
-    <div class="e-11">
-      <img src="images/e-11.2.svg" alt="">
-    </div>
-    <div class="e-11">
-      <img src="images/e-11.3.svg" alt="">
-    </div>
+      <div class="e-11">
+        <img src="images/e-11.1.svg" alt="">
+      </div>
+      <div class="e-11">
+        <img src="images/e-11.2.svg" alt="">
+      </div>
+      <div class="e-11">
+        <img src="images/e-11.3.svg" alt="">
+      </div>
+      <div class="e-11">
+        <img src="images/e-11.1.svg" alt="">
+      </div>
+      <div class="e-11">
+        <img src="images/e-11.2.svg" alt="">
+      </div>
+      <div class="e-11">
+        <img src="images/e-11.3.svg" alt="">
+      </div>
   </div>
   <div class="container">
     <div class="e-12">
@@ -207,6 +285,12 @@
     </div>
   </div>
   <div class="footer">
+    <div class="name">
+      Ви Ань Туиет
+    </div>
+    <div class="year">
+      2021
+    </div>
     <img src="images/footer.svg" alt="">
   </div>
 </body>
